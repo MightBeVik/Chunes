@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+
+# OS/editor
+.DS_Store
+
+# Large dataset kept local
+MillionSongSubset/
+
+# Generated outputs
+phase2_cleaned_dataset.csv

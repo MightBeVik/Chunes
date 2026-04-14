@@ -1,0 +1,34 @@
+
+PHASE 3 - MODELLING AND TESTING SUMMARY
+========================================
+
+Dataset: Million Song Dataset 10K subset
+Total songs: 10000
+Features used: 30 (10 numeric + 3 categorical encoded)
+
+ALGORITHMS IMPLEMENTED:
+1. K-Means Clustering
+   - Type: Centroid-based
+   - Optimal K: 6
+   - Silhouette Score: 0.0999
+   - Davies-Bouldin Index: 2.0206
+   - Calinski-Harabasz Score: 944.77
+
+2. Hierarchical Clustering
+   - Type: Agglomerative, Ward linkage
+   - K: 6
+   - Silhouette Score: 0.0510
+   - Davies-Bouldin Index: 2.4632
+   - Calinski-Harabasz Score: 643.14
+
+3. DBSCAN
+   - Type: Density-based
+   - Eps: 2.81
+   - Min samples: 5
+   - Clusters found: 1
+   - Noise points: 70 (0.7%)
+   - Silhouette Score: N/A
+
+FILES GENERATED:
+- phase3_cluster_assignments.csv: Song IDs with cluster assignments
+- This notebook with all code and explanations
